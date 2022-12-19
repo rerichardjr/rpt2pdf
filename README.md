@@ -1,3 +1,7 @@
+# History of RPT2PDF
+
+This was a quick Perl script I wrote in 2004 to download mainframe reports and convert them to PDF. Operators were wasting roughly five to six sheets of continuous paper to print a one page report.  With ```RPT2PDF```, operators could now print this report on a laser printer or send to recepient using email.  Managers began opting for their daily green bar reports to be sent through email, rather than receiving physical green bar copies.  This greatly reduced the usage of both paper and the specialty printers.
+
 # RPT2PDF
 
 Converts mainframe reports to PDF.  These reports contained special formatting characters.
@@ -63,8 +67,3 @@ Generating PDF Report somereport-landscape_1671411288.pdf
 ```
 
 Created [somereport-landscape_1671411288](https://github.com/rerichardjr/RPT2PDF/blob/main/somereport-landscape_1671411288.pdf)
-
-# History of RPT2PDF
-
-This was a quick Perl script I wrote in 2004 to download mainframe reports and convert them to PDF. Operators were wasting roughly five to six sheets of continuous paper to print a one page report.  With ```RPT2PDF```, operators could now print this report on a laser printer or send to recepient using email.  Managers began opting for their daily green bar reports to be sent through email, rather than receiving physical green bar copies.  This greatly reduced the usage of both paper and the specialty printers.
-
