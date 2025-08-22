@@ -6,29 +6,30 @@ I identified a bottleneck in print workflows at a 1.2M sq. ft. distribution cent
 
 No one asked me to replace the greenbar printer process. I just saw paper waste and thought, 'I don't like that, I'm going to fix it."
 
-Constraint Analysis:
+**Constraint Analysis:**
 - Operators manually unloaded and reloaded continuous feed greenbar and white paper, wasting material for single-page jobs
 - Environment restricted to base Perl tools and Net::FTP module, no access to external PDF libraries or PDF format documentation
 - Internet access completely locked down
 - High-friction, multi-step process to retrieve and distribute mainframe reports, leading to inefficiency and waste
 
-Solution:
+**Solution:**
+
 I architected an Enterprise Report Transformation Engine to convert mainframe reports to PDF and shifted output from greenbar to laser-printed or digital PDF reports
 
-Implementation:
+**Implementation:**
 - Reverse engineered PDF format using notepad
 - Wrote Perl code to build PDF from scratch using only native Perl (~10-15 hours)
 - Parsed raw mainframe reports and constructed fully compliant PDF files
 - Built configs for report orientations and in-serviced operators on use
 
-Strategic Value Demonstrated:
+**Strategic Value Demonstrated:**
 
-Impact: 
+**Impact:**
 - $100K annual supply savings
 - 50%+ reduction in paper waste
 - Enterprise-wide process modernization
-- 
-Technical:
+
+**Technical:**
 - Enhanced scalability by enabling delivery of any mainframe report via email in both portrait and landscape formats
 - Zero-dependency PDF engine
 - Mainframe data parsing
@@ -99,5 +100,6 @@ Generating PDF Report somereport-landscape_1671411288.pdf
 ```
 
 Created [somereport-landscape_1671411288](https://github.com/rerichardjr/RPT2PDF/blob/main/somereport-landscape_1671411288.pdf)
+
 
 
